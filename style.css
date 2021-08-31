@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  color: #666;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  opacity: 0.7;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 100vh;
+}
+.pimg2 {
+  background-image: url("https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url("https://images.pexels.com/photos/3947403/pexels-photo-3947403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  min-height: 400px;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.ptext {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 27;
+
+  font-size: 27px;
+}
+.ptext span {
+  padding: 20px;
+}
+.title span {
+  background-color: rgb(0, 0, 0);
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section h2 {
+  margin-bottom: 30px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #282e34;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #f4f4f4;
+}
