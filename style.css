@@ -10,6 +10,7 @@ body {
   font-family: "Lato", sans-serif;
   line-height: 1.8em;
   font-weight: 400;
+  background-color: rgb(18, 20, 37);
 }
 
 .pimg1,
@@ -37,22 +38,22 @@ body {
 .ptext {
   position: absolute;
   top: 50%;
-  color: white;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 27px;
+
+  color: #f4f4f4;
   width: 100%;
   text-align: center;
 }
-.ptext {
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  font-size: 27;
 
-  font-size: 27px;
-}
 .ptext span {
   padding: 20px;
+  width: auto;
+  text-align: center;
 }
 .title span {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(44, 44, 44);
 }
 
 .section {
@@ -71,4 +72,19 @@ body {
 .section-dark {
   background-color: #282e34;
   color: #f4f4f4;
+}
+
+hr {
+  width: 150px;
+  border: 2px solid #e76f51;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pimg2 hr {
+  width: 150px;
+}
+
+.pimg3 hr {
+  width: 350px;
 }
